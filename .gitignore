@@ -1,0 +1,50 @@
+# From Eclipse.gitignore
+.project
+.metadata
+.derived
+bin/
+tmp/**
+tmp/**/*
+*.tmp
+*.~
+*.*~
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+.sonar
+.sonarlint/
+
+# From Maven.gitignore
+target/
+dev_ears/
+# From IntelliJ.gitignore
+*.iml
+*.eml
+*.ipr
+*.iws
+.idea/
+
+#Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+*.gradle
+build/
+
+# Other
+reports
+.pmd
+*.log
+*.lck
+*.FDC
+/env-install/ws/rebuild.bat
+/.clover
+*.orig
+junitvmwatcher*
+junit*.properties
+.stryker-tmp
